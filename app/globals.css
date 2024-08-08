@@ -1,0 +1,111 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* School guard animation */
+@keyframes swipeOut {
+  0% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+}
+
+@keyframes swipeIn {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.swipe-out {
+  animation: swipeOut 0.5s forwards;
+}
+
+.swipe-in-next {
+  animation: swipeIn 0.5s forwards;
+}
+
+/* Adjust the size of the image container for different screen sizes */
+@media (min-width: 768px) {
+  .image-container {
+    height: 20rem; /* 320px */
+  }
+}
+
+@media (max-width: 768px) {
+  .image-container {
+    height: 16rem; /* 256px */
+  }
+}
+
+.link-underline {
+    border-bottom-width: 0;
+    background-image: linear-gradient(transparent, transparent), linear-gradient(#ffaa2b, #fff);
+    background-size: 0 3px;
+    background-position: 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size .5s ease-in-out;
+}
+
+.link-underline:hover {
+    background-size: 100% 3px;
+    background-position: 0 100%;
+}
+
+/* styles.css */
+
+.enquiry-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.enquiry-button button {
+  display: flex;
+  align-items: center;
+  background: linear-gradient(to right, #f97316, #facc15); /* CSS equivalent of the gradient */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.enquiry-button button svg {
+  margin-right: 8px; /* Space between icon and text */
+}
+
+.enquiry-button button:hover {
+  background: linear-gradient(to right, #d97706, #fbbf24); /* Darker gradient for hover */
+}
+
+/* Hide text and remove margin on smaller screens */
+@media (max-width: 600px) {
+  .enquiry-button .button-text {
+    display: none;
+  }
+  
+  .enquiry-button button {
+    padding: 10px; /* Adjust padding for smaller button */
+  }
+
+  .enquiry-button button svg {
+    margin-right: 0; /* Remove margin on smaller screens */
+  }
+}
+
+body{
+    background-color: #EFF6FF;
+}
+
+.hover-effect:hover img {
+  filter: brightness(0) saturate(100%) invert(66%) sepia(79%) saturate(2047%) hue-rotate(338deg) brightness(99%) contrast(98%);
+}
