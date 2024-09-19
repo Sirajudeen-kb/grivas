@@ -333,8 +333,8 @@ const products: Product[] = [
     secondarySpecifications: {
       title: "Variants",
       specs: [
-        { label: "Chrome Glass Touch Switch", value: "" },
-        { label: "Chrome Metal Touch Switch", value: "" },
+        { label: "", value: "Chrome Glass Touch Switch" },
+        { label: "", value: "Chrome Metal Touch Switch" },
       ],
     },
   },
@@ -656,12 +656,12 @@ const products: Product[] = [
         "paragraphs": [],
         "heading": "Standard Switches",
         "specs": [
-          { "label": "Full Glass Touch 2 Switch (1-25A)", "value": "" },
-          { "label": "Full Glass Touch 4 Switch", "value": "" },
-          { "label": "Full Glass Touch 6 Switch (1-20A)", "value": "" },
-          { "label": "Full Glass Touch 8 Switch (1-20A)", "value": "" },
-          { "label": "Full Glass Touch 10 Switch (2-20A)", "value": "" },
-          { "label": "Full Glass Touch 20 Switch (4-20A)", "value": "" }
+          { "label": "", "value": "Full Glass Touch 2 Switch (1-25A)" },
+          { "label": "", "value": "Full Glass Touch 4 Switch" },
+          { "label": "", "value": "Full Glass Touch 6 Switch (1-20A)" },
+          { "label": "", "value": "Full Glass Touch 8 Switch (1-20A)" },
+          { "label": "", "value": "Full Glass Touch 10 Switch (2-20A)" },
+          { "label": "", "value": "Full Glass Touch 20 Switch (4-20A)" }
         ]
       },
       {
@@ -669,17 +669,17 @@ const products: Product[] = [
         "paragraphs": [],
         "heading": "Switches with Fan Control",
         "specs": [
-          { "label": "Full Glass Touch Fan", "value": "" },
-          { "label": "Full Glass Touch 2 Fan", "value": "" },
-          { "label": "Full Glass Touch 4 Switch 1 Fan", "value": "" },
-          { "label": "Full Glass Touch 4 Switch 2 Fan", "value": "" },
-          { "label": "Full Glass Touch 6 Switch (1-25A) 1 Fan", "value": "" },
-          { "label": "Full Glass Touch 8 Switch 4 Fan", "value": "" },
-          { "label": "Full Glass Touch 16 Switch (1-20A, 2-25A) 1 Fan", "value": "" },
-          { "label": "Full Glass Touch 8 Switch 2 Fan 2 Socket (2-10A)", "value": "" },
-          { "label": "Full Glass Touch 14 Switch (2-25A) 2 Fan", "value": "" },
-          { "label": "Full Glass Touch 12 Switch (2-25A) 2 Fan", "value": "" },
-          { "label": "Full Glass Touch 10 Switch (3-25A) 2 Socket (2-10A) 1 Curtain", "value": "" }
+          { "label": "", "value": "Full Glass Touch Fan" },
+          { "label": "", "value": "Full Glass Touch 2 Fan" },
+          { "label": "", "value": "Full Glass Touch 4 Switch 1 Fan" },
+          { "label": "", "value": "Full Glass Touch 4 Switch 2 Fan" },
+          { "label": "", "value": "Full Glass Touch 6 Switch (1-25A) 1 Fan" },
+          { "label": "", "value": "Full Glass Touch 8 Switch 4 Fan" },
+          { "label": "", "value": "Full Glass Touch 16 Switch (1-20A, 2-25A) 1 Fan" },
+          { "label": "", "value": "Full Glass Touch 8 Switch 2 Fan 2 Socket (2-10A)" },
+          { "label": "", "value": "Full Glass Touch 14 Switch (2-25A) 2 Fan" },
+          { "label": "", "value": "Full Glass Touch 12 Switch (2-25A) 2 Fan" },
+          { "label": "", "value": "Full Glass Touch 10 Switch (3-25A) 2 Socket (2-10A) 1 Curtain" }
         ]
       },
       {
@@ -687,15 +687,15 @@ const products: Product[] = [
         "paragraphs": [],
         "heading": "Switches with Curtain Control",
         "specs": [
-          { "label": "Full Glass Touch 2 Switch 1 Curtain", "value": "" },
-          { "label": "Full Glass Touch 1 Curtain", "value": "" },
-          { "label": "Full Glass Touch 4 Switch 1 Curtain", "value": "" },
-          { "label": "Full Glass Touch 8 Switch (2-25A) 1 Curtain", "value": "" },
-          { "label": "Full Glass Touch 8 Switch (2-20A) 1 Curtain 1 Socket (1-10A)", "value": "" },
-          { "label": "Full Glass Touch 16 Switch (4-25A) 2 Curtain", "value": "" },
-          { "label": "Full Glass Touch 4 Switch (1-25A) 1 Fan 1 Curtain", "value": "" },
-          { "label": "Full Glass Touch 6 Switch (1-25A) 1 Fan 1 Curtain", "value": "" },
-          { "label": "Full Glass Touch 4 Switch (1-25A) 1 Fan 1 Curtain 1 Socket (1-10A)", "value": "" }
+          { "label": "", "value": "Full Glass Touch 2 Switch 1 Curtain" },
+          { "label": "", "value": "Full Glass Touch 1 Curtain" },
+          { "label": "", "value": "Full Glass Touch 4 Switch 1 Curtain" },
+          { "label": "", "value": "Full Glass Touch 8 Switch (2-25A) 1 Curtain" },
+          { "label": "", "value": "Full Glass Touch 8 Switch (2-20A) 1 Curtain 1 Socket (1-10A)" },
+          { "label": "", "value": "Full Glass Touch 16 Switch (4-25A) 2 Curtain" },
+          { "label": "", "value": "Full Glass Touch 4 Switch (1-25A) 1 Fan 1 Curtain" },
+          { "label": "", "value": "Full Glass Touch 6 Switch (1-25A) 1 Fan 1 Curtain" },
+          { "label": "", "value": "Full Glass Touch 4 Switch (1-25A) 1 Fan 1 Curtain 1 Socket (1-10A)" }
         ]
       },
       {
@@ -703,21 +703,21 @@ const products: Product[] = [
         "paragraphs": [],
         "heading": "Switches with Socket Control",
         "specs": [
-          { "label": "Full Glass Touch 2 Switch (1-25A) 1 Socket (1-10A)", "value": "" },
-          { "label": "Full Glass Touch 4 Switch 1 Socket (1-10A)", "value": "" },
-          { "label": "Full Glass Touch Fan 1 Socket (1-10A)", "value": "" },
-          { "label": "Full Glass Touch 6 Switch (1-25A) 1 Socket (1-10A)", "value": "" },
-          { "label": "Full Glass Touch 8 Switch (1-20A) 1 Socket (1-10A)", "value": "" },
-          { "label": "Full Glass Touch 2 Switch (1-25A) 2 Socket (2-10A)", "value": "" },
-          { "label": "Full Glass Touch 4 Switch 2 Socket (2-10A)", "value": "" },
-          { "label": "Full Glass Touch 10 Switch (2-20A) 1 Socket (1-10A)", "value": "" },
-          { "label": "Full Glass Touch 4 Switch 2 Fan 1 Socket (1-10A)", "value": "" },
-          { "label": "Full Glass Touch 6 Switch (1-25A) 2 Fan 2 Socket (2-10A)", "value": "" },
-          { "label": "Full Glass Touch 8 Switch (2-25A) 1 Fan 2 Socket (2-10A)", "value": "" },
-          { "label": "Full Glass Touch 12 Switch (3-25A) 2 Socket (2-10A)", "value": "" },
-          { "label": "Full Glass Touch 8 Switch 2 Fan 2 Socket (2-10A)", "value": "" },
-          { "label": "Full Glass Touch 10 Switch (1-25A) 1 Fan 2 Socket (2-10A)", "value": "" },
-          { "label": "Full Glass Touch 14 Switch (2-25A) 2 Socket (2-10A)", "value": "" }
+          { "label": "", "value": "Full Glass Touch 2 Switch (1-25A) 1 Socket (1-10A)" },
+          { "label": "", "value": "Full Glass Touch 4 Switch 1 Socket (1-10A)" },
+          { "label": "", "value": "Full Glass Touch Fan 1 Socket (1-10A)" },
+          { "label": "", "value": "Full Glass Touch 6 Switch (1-25A) 1 Socket (1-10A)" },
+          { "label": "", "value": "Full Glass Touch 8 Switch (1-20A) 1 Socket (1-10A)" },
+          { "label": "", "value": "Full Glass Touch 2 Switch (1-25A) 2 Socket (2-10A)" },
+          { "label": "", "value": "Full Glass Touch 4 Switch 2 Socket (2-10A)" },
+          { "label": "", "value": "Full Glass Touch 10 Switch (2-20A) 1 Socket (1-10A)" },
+          { "label": "", "value": "Full Glass Touch 4 Switch 2 Fan 1 Socket (1-10A)" },
+          { "label": "", "value": "Full Glass Touch 6 Switch (1-25A) 2 Fan 2 Socket (2-10A)" },
+          { "label": "", "value": "Full Glass Touch 8 Switch (2-25A) 1 Fan 2 Socket (2-10A)" },
+          { "label": "", "value": "Full Glass Touch 12 Switch (3-25A) 2 Socket (2-10A)" },
+          { "label": "", "value": "Full Glass Touch 8 Switch 2 Fan 2 Socket (2-10A)" },
+          { "label": "", "value": "Full Glass Touch 10 Switch (1-25A) 1 Fan 2 Socket (2-10A)" },
+          { "label": "", "value": "Full Glass Touch 14 Switch (2-25A) 2 Socket (2-10A)" }
         ]
       }
     ]    
@@ -731,11 +731,11 @@ const products: Product[] = [
     secondarySpecifications: {
       title: "Features",
       specs: [
-        { label: "Supports up to 30A load capacity per phase", value: "" },
-        { label: "High accuracy and reliability", value: "" },
-        { label: "User-friendly interface", value: "" },
-        { label: "Real-time energy consumption tracking", value: "" },
-        { label: "Robust and durable design", value: "" },
+        { label: "", value: "Supports up to 30A load capacity per phase" },
+        { label: "", value: "High accuracy and reliability" },
+        { label: "", value: "User-friendly interface" },
+        { label: "", value: "Real-time energy consumption tracking" },
+        { label: "", value: "Robust and durable design" },
       ],
     },
     primaryDescription: {
@@ -747,8 +747,8 @@ const products: Product[] = [
     primarySpecifications: {
       title: "Variants",
       specs: [
-        { label: "One-Phase Energy Meter", value: "" },
-        { label: "Three-Phase Energy Meter", value: "" },
+        { label: "", value: "One-Phase Energy Meter" },
+        { label: "", value: "Three-Phase Energy Meter" },
       ],
     },
   },

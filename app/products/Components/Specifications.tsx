@@ -17,10 +17,10 @@ const Specifications: React.FC<SpecificationsProps> = ({ title, specs }) => {
       <ul className="space-y-3">
         {specs.map((spec, index) => (
           <li key={index} className="flex items-start">
-            <span className="mr-2">›</span>
+            <span className="mr-2 font-extrabold">•</span>
             <div>
-              <span className="font-semibold">{spec.label}</span>
-              <span className={`text-gray-700 ${spec.value ? '' : 'hidden'}`}> : {spec.value}</span>
+              <span className={`font-semibold ${spec.label ? '' : 'hidden'}`}>{spec.label} : </span>
+              <span className={`text-gray-700 `}>{spec.value}</span>
             </div>
           </li>
         ))}

@@ -9,37 +9,26 @@ function Products() {
       <div className="py-8 text-center">
         <h1 className="text-4xl font-bold text-black">Economy-Products</h1>
       </div>
-      
-      <div className="flex min-h-screen items-center justify-center p-5">
-        <div className="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-4">
-        
+
+      <div className="flex min-h-screen items-center justify-center p-20 container ">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {products.map((product) => (
             <Link key={product.id} href={`/products/economy/${product.id}`}>
-              <div
-                className="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30"
-              >
-                <div className="h-96 w-72 relative">
+              <div className="text-center">
+                {/* Container for Fixed Height Image */}
+                <div className="w-full h-80 overflow-hidden">
                   <Image
-                    className="object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125"
                     src={product.img}
                     alt={product.name}
-                    fill
+                    width={300}
+                    height={300}
                     sizes="(max-width: 768px) 100vw, 
-                           (max-width: 1200px) 50vw, 
+                           (max-width: 1200px) 33vw, 
                            33vw"
-                    style={{ objectFit: "cover" }}
+                    style={{ objectFit: "contain", width: "100%", height: "100%" , borderRadius:"20px"}}
                   />
                 </div>
-                <div className="absolute rounded-md inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
-                <div className="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
-                  <h1 className="font-dmserif text-3xl font-bold text-white">
-                    {product.name}
-                  </h1>
-                  {/* Description is hidden by default */}
-                  <p className="mb-3 text-lg italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-                    {/* {product.description} */}
-                  </p>
-                </div>
+                <h2 className="mt-4 text-xl font-bold">{product.name}</h2>
               </div>
             </Link>
           ))}
