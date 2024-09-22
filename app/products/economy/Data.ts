@@ -4,7 +4,7 @@ const products: Product[] = [
   {
     id: 1,
     name: "Nexx Smart IR Remote",
-    img: "/images/newproducts/pr-3.jpeg",
+    img: "/images/newproducts/pr-3.png",
     description:
       "The nexx Smart IR is an all-in-one remote-control system that can manage all your IR-based appliances through your smartphone. With this innovative device, you can replace up to 10 different remotes with one universal remote the nexx Smart IR.",
     primaryFeatures: {
@@ -89,7 +89,7 @@ const products: Product[] = [
   {
     id: 2,
     name: "Nexx Smart Plug",
-    img: "/images/newproducts/pr-7.jpeg",
+    img: "/images/newproducts/pr-7.png",
     description:
       "Introducing the nexx Smart Plug, designed to effortlessly connect heavy-duty home appliances to your smart home network. This innovative device features real-time power monitoring and built-in surge protection, ensuring electrical safety with its durable ceramic housing. Rated for appliances up to 16A, the nexx Smart Plug is configurable via the nexx Home Automation app, providing seamless integration into your smart home setup.",
     primaryFeatures: {
@@ -161,7 +161,7 @@ const products: Product[] = [
   {
     id: 3,
     name: "Nexx Retrofit Smart Switches",
-    img: "/images/newproducts/pr-1.jpeg",
+    img: "/images/newproducts/pr-1.png",
     description:
       "Upgrade Your Home with nexx Retrofit Smart Switch Controllers! Transform your home into a smart haven effortlessly with nexx Retrofit Smart Switch Controllers. Simply install these controllers behind your existing switchboards, and you’re all set! No need to replace anything. Once installed, you can control up to six individual switches directly from the nexx mobile app and with your voice.",
     primarySpecifications: {
@@ -272,7 +272,7 @@ const products: Product[] = [
   {
     id: 4,
     name: "Nexx Chrome Touch Switchboard",
-    img: "/images/newproducts/pr-9.jpeg",
+    img: "/images/newproducts/pr-9.png",
     description:
       "Nexx Chrome Touch Switch is a sophisticated smart device that allows you to connect and control four appliances, including a fan (without a regulator). It replaces your traditional switches with a sleek, modern alternative. With its blue LED indicator, you can easily see if an appliance is on from a distance. This switch can be configured with an automation app, giving your home a stylish and smart upgrade.",
     primarySpecifications: {
@@ -341,7 +341,7 @@ const products: Product[] = [
   {
     id: 5,
     name: "Nexx Smart Lock",
-    img: "/images/newproducts/pr-4.jpeg",
+    img: "/images/newproducts/pr-4.png",
     description:
       "The nexx Smart Lock brings advanced security and convenience to your doorstep. This keyless entry system allows you to unlock your door using fingerprints, PIN codes, or a smartphone app, eliminating the hassle of carrying keys. Its modern design seamlessly integrates with any home décor, providing both style and security.",
     primarySpecifications: {
@@ -407,7 +407,7 @@ const products: Product[] = [
   {
     id: 6,
     name: "Nexx Smart MCB",
-    img: "/images/newproducts/pr-6.jpeg",
+    img: "/images/newproducts/pr-6.png",
     description:
       "The nexx Smart MCB 4-Pole 100A is an advanced miniature circuit breaker designed to provide comprehensive electrical protection and smart control for your home or business. It seamlessly integrates with your smart home network, allowing you to monitor and manage your electrical system remotely through a dedicated mobile app.",
     primarySpecifications: {
@@ -474,7 +474,7 @@ const products: Product[] = [
   {
     id: 7,
     name: "Nexx Motion Sensors",
-    img: "/images/newproducts/pr-8.jpeg",
+    img: "/images/newproducts/pr-8.png",
     description:
       "Motion sensors are innovative devices designed to detect movement within a specified area, playing a crucial role in modern security systems, home automation, and energy management.",
     primarySpecifications: {
@@ -725,7 +725,7 @@ const products: Product[] = [
   {
     id: 9,
     name: "Nexx Smart Phase Energy Meter",
-    img: "/images/newproducts/pr-5.jpeg",
+    img: "/images/newproducts/pr-5.png",
     description:
       "Introducing the nexx Smart Energy Meter, engineered for precise energy monitoring. Available in both single-phase and three-phase models, these advanced meters support up to 30A per phase, making them ideal for various applications. Designed with high accuracy and reliability in mind, they provide users with real-time tracking of energy consumption.",
     secondarySpecifications: {
