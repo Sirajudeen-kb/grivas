@@ -588,7 +588,7 @@ const products: Product[] = [
   {
     id: 8,
     name: "Nexx Full Glass Touch Switchboard",
-    img: "/images/newproducts/pr-2.jpeg",
+    img: "/images/newproducts/pr-2.png",
     description:
       "Introducing Smart Behind Modules: seamless integration for partial home automation with built-in safety features, Wi-Fi connectivity, voice control, and easy installation, elevating your home automation experience effortlessly.",
     primarySpecifications: {
