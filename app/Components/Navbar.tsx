@@ -3,7 +3,8 @@ import React, { useEffect, useState, useRef } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { useRouter } from "next/navigation"; // Updated import
-import Logo from "../../public/assets/Logo.svg";
+import Logo from "../../public/assets/Logo.png";
+import Icon from "../../public/assets/icon.png";
 import Facebook from "../../public/assets/Facebook.svg";
 import Instagram from "../../public/assets/Instagram.svg";
 import Enquiry from "../../public/assets/Enquiry.svg";
@@ -102,21 +103,16 @@ function Navbar() {
 
   return (
     <div className={`bg-blue-50 border-b ${isSticky ? "sticky top-0 z-50" : ""}`}>
-      <nav className="flex items-center space-x-10 lg:container lg:mx-auto lg:px-20">
-        <div className="flex w-full items-center justify-between px-[20px] py-[25px]">
+      <nav className="flex items-center space-x-10 lg:px-5">
+        <div className="flex w-full items-center justify-between px-[20px] py-[20px]">
           <div>
-            <Image className="lg:hidden md:hidden" src={Logo} alt="Logo" />
-            <span className="hidden lg:block md:block text-[28px] text-[#3056a8] font-bold">
-              GRIVAS
-              <br />
-              <p className="text-black text-lg font-normal">
-                {" "}
-                &quot;Smart Solutions, Safer Spaces.&quot;
-              </p>
+            <Image className="lg:hidden " src={Icon} alt="Logo" width={50} height={50}/>
+            <span className="hidden lg:block ">
+            <Image src={Logo} alt="Logo" width={200} height={200}/>
             </span>
           </div>
 
-          <div className="hidden lg:flex md:flex   gap-x-[35px]">
+          <div className="hidden lg:flex md:flex gap-x-[35px]">
             {navLinks.map((item, index) =>
               item.name === "Solutions" ? (
                 <div
