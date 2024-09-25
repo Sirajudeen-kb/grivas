@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import products from "./Data";
+import ojasit from "../../../public/images/ojasvit_logo.png";
 
 function Products() {
   return (
@@ -40,9 +41,14 @@ function Products() {
           ))}
         </div>
       </div>
-      <h1 className=" text-center text-3xl font-medium p-5">Get it on</h1>
-      
-      <div className="flex  justify-center  w-100 ml-auto my-3 mx-2 gap-5">
+      <div className="lg:flex justify-center  items-center gap-5 block">
+        <div className="  flex justify-center lg:justify-end ">
+          <Image src={ojasit} alt="ojasvit" width={250} height={100}></Image>
+        </div>
+        <div>
+          <h1 className=" text-center text-3xl font-medium p-5">Get it on</h1>
+
+          <div className="flex  justify-center my-3 mx-2 gap-5">
             <a
               href="https://apps.apple.com/in/app/ojasvit/id1605235377"
               target="_blank"
@@ -117,6 +123,8 @@ function Products() {
               </div>
             </a>
           </div>
+        </div>
+      </div>
     </>
   );
 }
