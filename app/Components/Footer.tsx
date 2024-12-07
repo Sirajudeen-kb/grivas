@@ -82,7 +82,7 @@ function Footer() {
         <div className="p-5">
           <p className="text-gray-800 font-bold text-2xl mb-4">Our products</p>
           <p className="text-gray-500 text-md pb-2 font-light hover:text-orange-600 cursor-pointer">
-            <a href="/products"> Smart Home Automation</a>
+            <a href="/products/economy"> Smart Home Automation</a>
           </p>
           <p className="text-gray-500 text-md pb-2 font-light hover:text-orange-600 cursor-pointer">
             <a href="/school-guard"> School Guard</a>
@@ -166,7 +166,7 @@ function Footer() {
         </div>
         <div className="p-5">
           <p className="text-gray-800 font-bold text-2xl mb-4">Contact Us</p>
-          <p className="text-gray-500 text-md pb-2 font-light hover:text-orange-600 cursor-pointer">
+          <p className="text-gray-500 text-md pb-2 font-light cursor-default">
             <span className="text-gray-800 font-semibold text-l mb-4">
               Phone:
             </span>{" "}
@@ -180,7 +180,7 @@ function Footer() {
             grivas.techno@gmail.com
           </p>
           <p className="text-gray-800 font-bold text-2xl mb-4">Office</p>
-          <p className="text-gray-500 text-md pb-2 font-light hover:text-orange-600 cursor-pointer">
+          <p className="text-gray-500 text-md pb-2 font-light cursor-default">
             GRIVAS Technologies
             <br />
             {/* added company name  */}

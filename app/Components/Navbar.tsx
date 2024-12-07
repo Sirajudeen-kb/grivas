@@ -7,6 +7,7 @@ import Logo from "../../public/assets/Logo.png";
 import Icon from "../../public/assets/icon.png";
 import Facebook from "../../public/assets/Facebook.svg";
 import Instagram from "../../public/assets/Instagram.svg";
+import Linkedin from "../../public/assets/Linkedin.svg";
 import Enquiry from "../../public/assets/Enquiry.svg";
 import Menu from "../../public/assets/Menu.svg";
 import CloseIcon from "../../public/assets/Close.svg"; // Add a close icon for the menu
@@ -32,14 +33,14 @@ const navLinks: NavLink[] = [
   { name: "Testimony", id: "testimony-section", icon: faComments },
   { name: "Resources", id: "resources-section", icon: faBook },
   { name: "Gallery", id: "gallery-section", icon: faBook },
-
 ];
 
 function Navbar() {
   const router = useRouter();
   const [isSticky, setIsSticky] = useState<boolean>(false);
   const [isDropdownVisible, setIsDropdownVisible] = useState<boolean>(false);
-  const [isSmartHomeDropdownVisible, setIsSmartHomeDropdownVisible] = useState<boolean>(false);
+  const [isSmartHomeDropdownVisible, setIsSmartHomeDropdownVisible] =
+    useState<boolean>(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState<boolean>(false);
   const dropdownRef = useRef<HTMLDivElement>(null);
   const smartHomeDropdownRef = useRef<HTMLDivElement>(null);
@@ -102,14 +103,24 @@ function Navbar() {
   };
 
   return (
-    <div className={`bg-blue-50 border-b ${isSticky ? "sticky top-0 z-50" : ""}`}>
+    <div
+      className={`bg-blue-50 border-b ${isSticky ? "sticky top-0 z-50" : ""}`}
+    >
       <nav className="flex items-center space-x-10 lg:px-5">
         <div className="flex w-full items-center justify-between px-[20px] py-[20px]">
           <div>
-            <Image className="lg:hidden " src={Icon} alt="Logo" width={50} height={50}/>
-            <span className="hidden lg:block ">
-            <Image src={Logo} alt="Logo" width={200} height={200}/>
-            </span>
+            <Link href="/">
+              <Image
+                className="lg:hidden "
+                src={Icon}
+                alt="Logo"
+                width={50}
+                height={50}
+              />
+              <span className="hidden lg:block ">
+                <Image src={Logo} alt="Logo" width={200} height={200} />
+              </span>
+            </Link>
           </div>
 
           <div className="hidden lg:flex md:flex gap-x-[35px]">
@@ -142,7 +153,7 @@ function Navbar() {
                           href="#"
                           className="block px-4 py-2 text-[16px] whitespace-nowrap hover:bg-gray-200"
                         >
-                           SmartHome Automation
+                          SmartHome Automation
                         </Link>
                         {isSmartHomeDropdownVisible && (
                           <div
@@ -153,7 +164,7 @@ function Navbar() {
                               href="/products/economy"
                               className="block px-4 py-2 text-[16px] whitespace-nowrap hover:bg-gray-200"
                             >
-                              Economy series 
+                              Economy series
                             </Link>
                             <Link
                               href="/products/luxury"
@@ -181,8 +192,7 @@ function Navbar() {
                 >
                   {item.name}
                 </Link>
-              )
-              : item.name === "Gallery" ? (
+              ) : item.name === "Gallery" ? (
                 <Link
                   href="/gallery"
                   key={index}
@@ -218,6 +228,14 @@ function Navbar() {
                 className="hover-effect"
               >
                 <Image src={Instagram} alt="Instagram" />
+              </a>
+              <a
+                href="https://www.linkedin.com/in/grivastechnologies/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover-effect"
+              >
+                <Image src={Linkedin} alt="Linkedin" />
               </a>
               <a
                 href="https://www.facebook.com/GrivasTechnology"
@@ -277,7 +295,7 @@ function Navbar() {
                           className="block text-[16px] hover:bg-gray-200"
                           onClick={toggleMobileMenu}
                         >
-                           SmartHome Automation
+                          SmartHome Automation
                         </Link>
                         <div className="pl-4 mt-2">
                           <Link
@@ -314,8 +332,7 @@ function Navbar() {
                     <FontAwesomeIcon icon={item.icon} className="mr-2" />
                     {item.name}
                   </Link>
-                )
-                : item.name === "Gallery" ? (
+                ) : item.name === "Gallery" ? (
                   <Link
                     href="/gallery"
                     className="font-normal text-[16px] hover:bg-gray-200 block"
@@ -353,6 +370,14 @@ function Navbar() {
                 className="hover-effect"
               >
                 <Image src={Instagram} alt="Instagram" />
+              </a>
+              <a
+                href="https://www.linkedin.com/in/grivastechnologies/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover-effect"
+              >
+                <Image src={Linkedin} alt="Linkedin" />
               </a>
               <a
                 href="https://www.facebook.com/GrivasTechnology"
