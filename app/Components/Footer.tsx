@@ -164,13 +164,13 @@ function Footer() {
             </a>
           </div> */}
         </div>
-        <div className="p-5">
+        <div className="p-4">
           <p className="text-gray-800 font-bold text-2xl mb-4">Contact Us</p>
           <p className="text-gray-500 text-md pb-2 font-light cursor-default">
             <span className="text-gray-800 font-semibold text-l mb-4">
               Phone:
             </span>{" "}
-            +91 7010258295, +91 8925512140
+            +91 7010258295, +91 8925512140, +91 9842035348
             {/* added +91 */}
             <br />
             <span className="text-gray-800 font-semibold text-l mb-4">
@@ -179,19 +179,27 @@ function Footer() {
             sales@grivas.in,<br/>
             grivas.techno@gmail.com
           </p>
-          <p className="text-gray-800 font-bold text-2xl mb-4">Office</p>
-          <p className="text-gray-500 text-md pb-2 font-light cursor-default">
-            GRIVAS Technologies
-            <br />
+          <p className="text-gray-800 font-bold  mb-1 text-2xl">Office</p>
+          <p className="text-gray-500 text-md font-light cursor-default">
+          GRIVAS Technologies
+          <br />
             {/* added company name  */}
             53, 1st Floor, Velachery Main Rd, Mehta Nagar,
             <br />
             Selaiyur, Chennai, Tamil Nadu 600073
           </p>
+          <p className="text-gray-500 text-md mt-2 font-light cursor-default">
+          JAYBAN COMPUTERS
+          <br />
+            {/* added company name  */}
+            Ground Floor, Deen Plaza, SBI Road,
+            <br />
+            Mayiladuthurai, 609001.
+          </p>
         </div>
       </div>
       <div className="text-center"><p>Copyright © 2024 <strong> GRIVAS Technologies</strong> . All Rights Reserved</p>
-      <p>Developed By</p></div>
+     </div>
     </>
   );
 }
