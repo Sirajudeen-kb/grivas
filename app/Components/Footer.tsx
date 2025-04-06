@@ -179,7 +179,7 @@ function Footer() {
             sales@grivas.in,<br/>
             grivas.techno@gmail.com
           </p>
-          <p className="text-gray-800 font-bold  mb-1 text-2xl">Office</p>
+          <p className="text-gray-800 font-bold  mb-1 text-2xl">Branch Office</p>
           <p className="text-gray-500 text-md font-light cursor-default">
           GRIVAS Technologies
           <br />
