@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 function NewHero() {
     return (
-        <div className="container mx-auto px-4 py-6 lg:py-8">
+        <div className="container mx-auto px-8 py-6 lg:py-8">
             <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
                 {/* Left Content */}
                 <div className="space-y-8">
