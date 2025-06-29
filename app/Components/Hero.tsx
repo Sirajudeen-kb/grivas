@@ -239,7 +239,9 @@ const HeroCarousel: React.FC = () => {
                   </p>
                 )}
                 <button
-                  className="bg-gradient-to-r from-orange-500 to-yellow-300 hover:from-[#d97706] hover:to-[#fbbf24] px-6 py-2 rounded-full lg:block md:block hidden"
+                className="bg-gradient-to-r from-blue-600 to-sky-400 hover:from-blue-700 hover:to-sky-500 px-6 py-2 rounded-full lg:block md:block hidden"
+
+                // className="bg-gradient-to-r from-orange-500 to-yellow-300 hover:from-[#d97706] hover:to-[#fbbf24] px-6 py-2 rounded-full lg:block md:block hidden"
                   onClick={toggleDetails}
                 >
                   {showMoreDetails ? "Back" : "Learn More"}

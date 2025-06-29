@@ -2,7 +2,7 @@ import Image from "next/image";
 import React from "react";
 import about from "../../public/images/img.jpeg";
 import sc from "../../public/images/sc.jpeg";
-
+import msr from "../../public/images/home_header.jpg"
 function About() {
   return (
     <>
@@ -49,6 +49,21 @@ function About() {
                 layout="responsive"
                 className="object-cover transition-transform duration-300 w-[100%] h-auto hover:scale-105 rounded-xl mb-5 lg:mb-0"
               />
+            </div>
+          </div>
+          <div className="w-full flex flex-col-reverse lg:flex-row my-8 lg:mb-0 gap-5 lg:pr-8">
+            <div className="relative w-full lg:w-[30%] flex justify-center rounded-lg overflow-hidden transition-opacity duration-[2500ms]">
+              <Image
+                src={msr}
+                alt="About Us"
+                layout="responsive"
+                className="object-cover transition-transform duration-300 w-[100%] h-auto hover:scale-105 rounded-xl mb-5 lg:mb-0"
+              />
+            </div>
+            <div className="w-full lg:w-[70%] grid items-center flex-col justify-between transition-opacity duration-[2500ms]">
+              <p className="text-sm sm:text-base md:text-lg mb-6 p-5 lg:mb-0">
+                MSR‑Electronic GmbH is a Germany-based company specializing in high-quality stationary gas detection systems for industrial, commercial, and marine applications. Founded in 1999, it offers innovative and modular solutions through its PolyGard®, PolyXeta®, and PolyMarine® product lines, with a focus on safety, sustainability, and international certifications like ISO and ATEX. We Grivas Technologies is the official distributor, providing comprehensive sales, service, and support in India, ensuring reliable local expertise and customer satisfaction.
+              </p>
             </div>
           </div>
           <h2 className="max-w-[800px] text-lg mt-2 mb-2 p-5 m-5 mx-auto text-center">

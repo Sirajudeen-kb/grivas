@@ -180,22 +180,33 @@ function Footer() {
             grivas.techno@gmail.com
           </p>
           <p className="text-gray-800 font-bold  mb-1 text-2xl">Branch Office</p>
-          <p className="text-gray-500 text-md font-light cursor-default">
-          GRIVAS Technologies
-          <br />
-            {/* added company name  */}
-            53, 1st Floor, Velachery Main Rd, Mehta Nagar,
-            <br />
-            Selaiyur, Chennai, Tamil Nadu 600073
-          </p>
-          <p className="text-gray-500 text-md mt-2 font-light cursor-default">
-          JAYBAN COMPUTERS
-          <br />
-            {/* added company name  */}
-            Ground Floor, Deen Plaza, SBI Road,
-            <br />
-            Mayiladuthurai, 609001.
-          </p>
+         <div className="flex gap-5 items-start">
+  {/* Company 1 */}
+  <div className="text-gray-500 text-md font-light cursor-default">
+    <p>
+      <span className="font-bold">GRIVAS Technologies</span>
+      <br />
+      53, 1st Floor, Velachery Main Rd, Mehta Nagar,
+      <br />
+      Selaiyur, Chennai, Tamil Nadu 600073
+    </p>
+  </div>
+
+  {/* Splitter */}
+  <div className="w-px bg-gray-300 h-full" />
+
+  {/* Company 2 */}
+  <div className="text-gray-500 text-md font-light cursor-default mt-2">
+    <p>
+      <span className="font-bold">JAYBAN COMPUTERS</span>
+      <br />
+      Ground Floor, Deen Plaza, SBI Road,
+      <br />
+      Mayiladuthurai, 609001.
+    </p>
+  </div>
+</div>
+
         </div>
       </div>
       <div className="text-center"><p>Copyright © 2024 <strong> GRIVAS Technologies</strong> . All Rights Reserved</p>

@@ -24,7 +24,7 @@ const getThumbnailUrl = (videoId: string) =>
 const Resource = () => {
   return (
     <>
-      <div className="flex flex-col items-center justify-center p-5">
+      <div className="flex flex-col items-center justify-center p-5 gap-3">
         <p className="text-lg mb-5">
           Welcome to our resource page. Download our brochure to learn more!
         </p>
@@ -32,23 +32,44 @@ const Resource = () => {
         <a
           href="/brochure.pdf"
           download
-          className="bg-gradient-to-r from-orange-500 to-yellow-300 hover:from-orange-600 hover:to-yellow-400 text-white py-3 px-6 rounded-lg flex items-center gap-2"
+              // className="bg-gradient-to-r from-blue-600 to-sky-400 hover:from-blue-700 hover:to-sky-500 px-6 py-2 rounded-full lg:block md:block hidden"
+
+          className="bg-gradient-to-r  from-blue-600 to-sky-400 hover:from-blue-700 hover:to-sky-500  text-white py-3 px-6 rounded-lg flex items-center gap-2"
         >
           <FaDownload />
           <p>Smart-Home:</p> Download Brochure
+        </a>
+         <a
+          href="/The School Guard_Brochure.pdf"
+          download
+          className="bg-gradient-to-r  from-blue-600 to-sky-400 hover:from-blue-700 hover:to-sky-500  text-white py-3 px-6 rounded-lg flex items-center gap-2"
+
+          // className="bg-gradient-to-r from-orange-500 to-yellow-300 hover:from-orange-600 hover:to-yellow-400 text-white py-3 px-6 rounded-lg flex items-center gap-2"
+        >
+          <FaDownload />
+          <p>School-Guard</p> Download Brochure
+        </a>
+        <a
+          href="/MSR.pdf"
+          download
+              // className="bg-gradient-to-r from-blue-600 to-sky-400 hover:from-blue-700 hover:to-sky-500 px-6 py-2 rounded-full lg:block md:block hidden"
+          className="bg-gradient-to-r  from-blue-600 to-sky-400 hover:from-blue-700 hover:to-sky-500  text-white py-3 px-6 rounded-lg flex items-center gap-2"
+         
+          // className="bg-gradient-to-r from-orange-500 to-yellow-300 hover:from-orange-600 hover:to-yellow-400 text-white py-3 px-6 rounded-lg flex items-center gap-2"
+        >
+          <FaDownload />
+          <p>MSR Electonics</p> Download Brochure
         </a>
       </div>
       <div className="flex flex-col items-center justify-center p-5">
         
         
-        <a
-          href="/The School Guard_Brochure.pdf"
-          download
-          className="bg-gradient-to-r from-orange-500 to-yellow-300 hover:from-orange-600 hover:to-yellow-400 text-white py-3 px-6 rounded-lg flex items-center gap-2"
-        >
-          <FaDownload />
-          <p>School-Guard</p> Download Brochure
-        </a>
+       
+      </div>
+      <div className="flex flex-col items-center justify-center p-5">
+        
+        
+        
       </div>
       <div className="heading text-center font-bold text-2xl m-5">
         Installation videos and tutorials

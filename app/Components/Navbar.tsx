@@ -144,11 +144,19 @@ function Navbar() {
                       ref={dropdownRef}
                       className="absolute top-full mt-2 bg-blue-50 shadow-md rounded-lg z-50"
                     >
+                       <Link
+                        href="/MSR"
+                        className="block px-4 py-2 text-[16px] whitespace-nowrap hover:bg-gray-200"
+                      >
+                       MSR Electronics
+                      </Link>
                       <div
                         className="relative"
                         onMouseEnter={handleSmartHomeMouseEnter}
                         onMouseLeave={handleSmartHomeMouseLeave}
                       >
+                        
+                     
                         <Link
                           href="#"
                           className="block px-4 py-2 text-[16px] whitespace-nowrap hover:bg-gray-200"
@@ -258,7 +266,9 @@ function Navbar() {
           </div>
         </div>
         <button
-          className="hidden lg:block md:block shadow-md rounded-full text-white bg-gradient-to-r from-orange-500 to-yellow-300 px-12 py-2 hover:from-[#d97706] hover:to-[#fbbf24]"
+        className="bg-gradient-to-r from-blue-600 to-sky-400 hover:from-blue-700 hover:to-sky-500 px-6 py-2 rounded-full lg:block md:block hidden"
+
+        // className="hidden lg:block md:block shadow-md rounded-full text-white bg-gradient-to-r from-orange-500 to-yellow-300 px-12 py-2 hover:from-[#d97706] hover:to-[#fbbf24]"
           onClick={() => handleNavLinkClick("enquiry-section")}
         >
           <p>Enquire</p>

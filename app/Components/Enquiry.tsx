@@ -84,7 +84,9 @@ function Enquiry() {
             />
             <button
               type="submit"
-              className="text-2lg shadow-2xl md:text-white rounded-md bg-gradient-to-r from-yellow-200 to-orange-500 px-12 py-3 text-center hover:from-[#d97706] hover:to-[#fbbf24]"
+              className="bg-gradient-to-r from-blue-600 to-sky-400 hover:from-blue-700 hover:to-sky-500 px-6 py-2 rounded-full lg:block md:block hidden"
+
+              // className="text-2lg shadow-2xl md:text-white rounded-md bg-gradient-to-r from-yellow-200 to-orange-500 px-12 py-3 text-center hover:from-[#d97706] hover:to-[#fbbf24]"
               disabled={state.submitting}
             >
               Send
