@@ -3,7 +3,7 @@ import React from "react";
 const About: React.FC = () => {
   return (
     <div >
-      <div className="container mx-auto max-w-5xl flex gap-12 flex-wrap items-start justify-center md:justify-between py-10 sm:py-14 lg:py-24">
+      <div className="container mx-auto max-w-5xl flex gap-12 flex-wrap items-start justify-center md:justify-between py-8 sm:py-10 lg:py-12">
         <div className="grid gap-4 justify-items-center text-center md:flex-1">
           <div className="rounded-full border-8 border-amber-500 p-4">
             <svg
